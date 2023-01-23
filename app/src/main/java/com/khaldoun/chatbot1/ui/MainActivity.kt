@@ -21,7 +21,7 @@ import kotlinx.coroutines.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var adapter: MessagingAdapter
-    private val botList = listOf("Peter", "Francesca", "Luigi", "Igor")
+    private val botList = listOf("Khaldoun", "Salman", "Elon", "Jad")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         clickEvents()
 
         val random = (0..3).random()
-        customMessage("Hello, today you're speaking with ${botList[random]}, how may I help?")
+        customMessage("Hello LinkedIn community, today you're speaking with ${botList[random]}, how may I help you?")
     }
 
     private fun clickEvents(){

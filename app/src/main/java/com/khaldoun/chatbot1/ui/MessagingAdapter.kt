@@ -10,8 +10,9 @@ import com.khaldoun.chatbot1.data.Message
 import com.khaldoun.chatbot1.utilis.Constants.RECEIVE_ID
 import com.khaldoun.chatbot1.utilis.Constants.SEND_ID
 import kotlinx.android.synthetic.main.message_item.view.*
-
+//this messaging adapter class inherits from recyclerview.adapter
 class MessagingAdapter: RecyclerView.Adapter<MessagingAdapter.MessageViewHolder>() {
+
     var messagesList = mutableListOf<Message>()
     inner class MessageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         init {
